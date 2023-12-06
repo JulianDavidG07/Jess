@@ -189,10 +189,7 @@ body {
 .btn + .btn {
   margin-left: 10px;
 }
-.btn-primary {
-  background: transparent;
-  color: #fff;
-}
+
 
 .btn-primary.active,
 .btn-secondary.active {
@@ -202,10 +199,7 @@ body {
 .btn-secondary {
   background: transparent;
 }
-.btn-secondary:hover {
-  background: #e0e0e0;
-  border-radius: 50px;
-}
+
 
 .emo-container {
   position: absolute;
