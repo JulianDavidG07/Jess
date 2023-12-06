@@ -30,6 +30,7 @@ var mensajesSad = [
   "🌞 La felicidad es interior, no exterior; por lo tanto, no depende de lo que tenemos, sino de lo que somos. - Henry Van Dyke",
   "🌼 La verdadera felicidad es un estado interior de paz y satisfacción. - Dalai Lama",
   "🌷 La felicidad es una dirección, no un lugar. - Sydney J. Harris",
-  "🌸 La felicidad no es algo listo. Viene de tus propias acciones. - Dalai Lama"
+  "🌸 La felicidad no es algo listo. Viene de tus propias acciones. - Dalai Lama",
+  "🌺 'Confíenle todas sus preocupaciones, porque él cuida de ustedes.' - 1 Pedro 5:7",
 ];
 
