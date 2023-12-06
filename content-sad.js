@@ -11,18 +11,3 @@ var mensajesSad = [
   "6 Puedes agregar más mensajes al array según tus necesidades.",
 ];
 
-function mostrarSad() {
-  lastHoveredButton = "btn-secondary"; // Agrega esta línea
-  var mensajeRandom = mensajesSad[Math.floor(Math.random() * mensajesSad.length)];
-  var mensajeBoxSad = document.getElementById("mensaje");
-  mensajeBoxSad.textContent = mensajeRandom;
-
-  var messageBoxSad = document.getElementById("messageBox");
-  var btn = document.querySelector(".btn-secondary");
-  var rect = btn.getBoundingClientRect();
-
-  messageBoxSad.style.top = rect.bottom + "px";
-  messageBoxSad.style.left = rect.left + "px";
-
-  messageBoxSad.style.display = "block";
-}

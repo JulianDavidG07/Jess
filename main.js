@@ -40,3 +40,37 @@ document.addEventListener("DOMContentLoaded", function () {
     primaryButton.classList.remove('active');
     secondaryButton.classList.add('active');
   });
+
+
+  function mostrarHappy() {
+    lastHoveredButton = "btn-primary"; // Agrega esta línea
+    var mensajeRandom = mensajesHappy[Math.floor(Math.random() * mensajesHappy.length)];
+    var mensajeBoxHappy = document.getElementById("mensaje");
+    mensajeBoxHappy.textContent = mensajeRandom;
+  
+    var messageBoxHappy = document.getElementById("messageBox");
+    var btn = document.querySelector(".btn-primary");
+    var rect = btn.getBoundingClientRect();
+  
+    messageBoxHappy.style.top = rect.bottom + "px";
+    messageBoxHappy.style.left = rect.left + "px";
+  
+    messageBoxHappy.style.display = "block";
+  }
+
+  function mostrarSad() {
+    lastHoveredButton = "btn-secondary"; // Agrega esta línea
+    var mensajeRandom = mensajesSad[Math.floor(Math.random() * mensajesSad.length)];
+    var mensajeBoxSad = document.getElementById("mensaje");
+    mensajeBoxSad.textContent = mensajeRandom;
+  
+    var messageBoxSad = document.getElementById("messageBox");
+    var btn = document.querySelector(".btn-secondary");
+    var rect = btn.getBoundingClientRect();
+  
+    messageBoxSad.style.top = rect.bottom + "px";
+    messageBoxSad.style.left = rect.left + "px";
+  
+    messageBoxSad.style.display = "block";
+  }
+  
