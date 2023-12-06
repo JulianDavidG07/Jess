@@ -196,7 +196,7 @@ body {
 
 .btn-primary.active,
 .btn-secondary.active {
-  background: #eeeff5;
+  background: #000000;
   border-radius: 50px;
 }
 .btn-secondary {
