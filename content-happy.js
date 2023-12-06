@@ -2,7 +2,7 @@
 var lastHoveredButton = "btn-primary"; // Agrega esta línea
 
 var mensajesHappy = [
-  "¡Hola! Este es un mensaje aleatorio.",
+  "¡Hola! Este es un mensaje aleatorio. .)",
   "¿Sabías que los mensajes cambian cada vez?",
   "¡Espero que tengas un gran día!",
   "Juan es crazy",
