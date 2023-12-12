@@ -55,6 +55,7 @@ body {
   min-width: 90%;
   text-align: center;
   text-wrap: balance;
+  z-index: 999;
 }
 
 #mensaje {
