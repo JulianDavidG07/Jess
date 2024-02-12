@@ -19,7 +19,7 @@ display: inline-flex;
 }
 
 .open .ico {
-  animation: open 4s;
+  animation: open 1s;
   transform: scale(10);
 }
 .ico .title {
@@ -86,7 +86,7 @@ display: inline-flex;
 .open .endtext {
   top: 0;
   opacity: 1;
-  animation: show 5s;
+  animation: show 2s;
 }
 
 .endtext .close {
