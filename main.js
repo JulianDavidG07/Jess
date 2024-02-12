@@ -27,19 +27,12 @@ document.addEventListener("DOMContentLoaded", function () {
   //HOVER
   // Obtener los botones
   var primaryButton = document.querySelector('.btn-primary');
-  var secondaryButton = document.querySelector('.btn-secondary');
 
   // Agregar evento al botón primario
   primaryButton.addEventListener('mouseover', function() {
-    secondaryButton.classList.remove('active');
     primaryButton.classList.add('active');
   });
 
-  // Agregar evento al botón secundario
-  secondaryButton.addEventListener('mouseover', function() {
-    primaryButton.classList.remove('active');
-    secondaryButton.classList.add('active');
-  });
 
 
   function mostrarHappy() {
@@ -56,21 +49,5 @@ document.addEventListener("DOMContentLoaded", function () {
     messageBoxHappy.style.left = rect.left + "px";
   
     messageBoxHappy.style.display = "block";
-  }
-
-  function mostrarSad() {
-    lastHoveredButton = "btn-secondary"; // Agrega esta línea
-    var mensajeRandom = mensajesSad[Math.floor(Math.random() * mensajesSad.length)];
-    var mensajeBoxSad = document.getElementById("mensaje");
-    mensajeBoxSad.textContent = mensajeRandom;
-  
-    var messageBoxSad = document.getElementById("messageBox");
-    var btn = document.querySelector(".btn-secondary");
-    var rect = btn.getBoundingClientRect();
-  
-    messageBoxSad.style.top = rect.bottom + "px";
-    messageBoxSad.style.left = rect.left + "px";
-  
-    messageBoxSad.style.display = "block";
   }
   

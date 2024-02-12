@@ -21,8 +21,6 @@ function mostrarMensajeAleatorio(mensajes) {
 function mostrarRandom() {
   if (lastHoveredButton === "btn-primary") {
     mostrarMensajeAleatorio(mensajesHappy);
-  } else if (lastHoveredButton === "btn-secondary") {
-    mostrarMensajeAleatorio(mensajesSad);
   } else {
     mensajeBox.textContent = "No se detectó el último botón.";
     messageBox.style.display = "block";
