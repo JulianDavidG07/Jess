@@ -16,6 +16,11 @@ body {
   justify-content: center;
 }
 
+.mp3_ {
+  position: absolute;
+  top: 0;
+}
+
 .buenos-dias {
     background-image: linear-gradient(0deg, #2aabdb 10%, #ecec91 90%); /* Fondo amarillo para Buenos días */
 }
