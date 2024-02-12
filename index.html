@@ -10,14 +10,29 @@
       rel="stylesheet"
     />
     <title>Mi Hermosa Jess</title>
-    <link rel="icon" type="image/png" href="./assets/ico.png">
+    <link rel="icon" type="image/png" href="./assets/ico.png" />
 
     <link rel="stylesheet" href="./main.css" />
     <link rel="stylesheet" href="./hearth.css" />
   </head>
   <body id="body">
+
+    <a id="fotos_" href="https://photos.app.goo.gl/AFPvBaDEX7rNvSu99">
+      Tú
+    </a>
+
     <div class="mp3_">
-      Hola
+      <audio id="track">
+        <source src="./mp3/Mi Persona Favorita.mp3" type="audio/mpeg" />
+      </audio>
+
+      <div id="play-pause" class="play">Play</div>
+
+      <div
+        style="height: 132px; background-color: #2e069952"
+        data-aos="flip-up"
+        data-aos-duration="3000"
+      ></div>
     </div>
     <!-- Happy Valentines day Codepen! -->
     <div class="absol">
@@ -26,9 +41,7 @@
           <span class="ico2"></span> <span class="title">Click Me</span>
         </span>
         <div class="endtext">
-          <span class="close" title="Restart">
-            ✖
-          </span>
+          <span class="close" title="Restart"> ✖ </span>
           <h1>¡Tu eres mi todo!</h1>
           <h3><strong>~Juli te adora</strong></h3>
         </div>
@@ -37,7 +50,9 @@
     <!-- Happy Valentines day Codepen! -->
 
     <div class="card">
-      <h3>Mi Hermosa Jess, <br><span id="saludo-dinamico"> Buenos días</span></h3>
+      <h3>
+        Mi Hermosa Jess, <br /><span id="saludo-dinamico"> Buenos días</span>
+      </h3>
       <p>Espero que estés muy bien</p>
 
       <button class="btn btn-primary" onmouseover="mostrarHappy()">
