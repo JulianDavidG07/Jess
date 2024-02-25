@@ -1025,3 +1025,15 @@ body {
   margin-top: 2px!important;
   border-bottom: none!important;
 }
+
+.pinterest_ {
+  position: absolute;
+  z-index: 9999;
+  top: 40px;
+  right: 10px;
+}
+
+.pinterest_ svg {
+  width: 30px;
+  height: 30px;
+}
