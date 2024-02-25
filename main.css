@@ -1028,8 +1028,8 @@ body {
 
 .pinterest_ {
   position: absolute;
-  z-index: 9999;
-  top: 40px;
+  z-index: 600;
+  top: 20px;
   right: 10px;
 }
 
