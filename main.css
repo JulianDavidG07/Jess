@@ -1012,12 +1012,12 @@ body {
 #timer div {
   display: inline-block;
   border-bottom: 1px solid black;
-  text-shadow: 1px 1px 1px rgba(252, 248, 248, 0.5);
+  text-shadow: 1px 1px 1px rgba(252, 248, 248, 0.945);
 }
 
 #timer div span {
   color: #674ea7;
-  text-shadow: 1px 1px 1px rgba(226, 223, 223, 0.5);
+  text-shadow: 1px 1px 1px #e2dfdf;
   display: block;
   font-size: 14px;
   font-weight: 700;
