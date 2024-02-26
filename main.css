@@ -1004,16 +1004,20 @@ body {
   font-size: 20px;
   font-weight: 700;
   color: #263238;
+  text-shadow: 1px 1px 1px rgba(238, 234, 234, 0.5);
   display: flex;
   flex-direction: column;
 }
+
 #timer div {
   display: inline-block;
   border-bottom: 1px solid black;
+  text-shadow: 1px 1px 1px rgba(252, 248, 248, 0.5);
 }
 
 #timer div span {
   color: #674ea7;
+  text-shadow: 1px 1px 1px rgba(226, 223, 223, 0.5);
   display: block;
   font-size: 14px;
   font-weight: 700;
