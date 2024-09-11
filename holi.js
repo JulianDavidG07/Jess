@@ -85,7 +85,6 @@ const messages = [
   "🎁 Toma, mi amor, te regalo mi eternidad 💖",
   "👀 Tus ojos son el arma con la que me robaste el corazón 💖",
   "💭 Ayer eras mi amor. Hoy eres mi todo. Mañana serás mi vida 🌟",
-  "💋 Me robó un beso y yo sentí que me robó mi alma 💖",
   "🔍 Creo que nací para encontrarme contigo 🌟",
   "🕰️ ¿Sabes qué hora es? La hora de que me dejes apapucharte 💖",
   "❤️ No soy donante de órganos, pero te daría con gusto mi corazón 💞",
