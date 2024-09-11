@@ -88,7 +88,6 @@ const messages = [
   "🔍 Creo que nací para encontrarme contigo 🌟",
   "🕰️ ¿Sabes qué hora es? La hora de que me dejes apapucharte 💖",
   "❤️ No soy donante de órganos, pero te daría con gusto mi corazón 💞",
-  "👀 No creía en el amor a primera vista hasta que entraste aquí 🌟",
   "😇 Acabo de ver un ángel, no estoy seguro de estar en la tierra 💖",
   "📜 Contigo no quiero finales, contigo quiero una historia sin final 🌟",
   "💫 ¡Aquí estoy! todo tuyo mi amor 🍊",
