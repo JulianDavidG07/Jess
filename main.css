@@ -1193,7 +1193,7 @@ body {
 }
 
 .modal__footer {
-  text-align: right;
+  text-align: center;
   a {
     color: #585858;
   }
