@@ -4,7 +4,7 @@ function displayWord() {
   var wordCounter = 0;
   
   // Array de colores
-  var colors = ['#f047d0', '#00ca92', '#f67a49', '#FF33A5', '#674ea7'];
+  var colors = ['#f047d0', '#00ca92', '#f67a49', '#FF33A5', '#00ca3c'];
   var colorCounter = 0; // Índice del color
   
   setInterval(updateWord, 1500);
