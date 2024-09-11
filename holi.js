@@ -67,7 +67,6 @@ const messages = [
   "💡 Si me preguntan por ti, les diré que iluminaste mi vida y toda la ciudad 🌟",
   "💋 Quiero llenar mi boca con tu nombre 💖",
   "💌 Eres lo que no sabía que necesitaba. Ahora tengo claro que te necesito aquí siempre 🌟",
-  "😊 Le doy a todos mi sonrisa, pero solo a uno mi corazón 💖",
   "🛠️ Me las puedo arreglar sola, pero arreglármelas contigo me parece un mejor plan 🌟",
   "⏳ Haría los segundos eternos para estar contigo un rato más 💖",
   "🌪️ Ahora resulta que en medio de este caos, tú y yo nos hacemos reír 😄",
