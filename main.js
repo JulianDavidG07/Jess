@@ -1,3 +1,54 @@
+/****** Animate-words_ ******* */
+function displayWord() {
+  var words = document.getElementsByClassName("toggle");
+  var wordCounter = 0;
+  
+  // Array de colores
+  var colors = ['#f047d0', '#00ca92', '#f67a49', '#FF33A5', '#674ea7'];
+  var colorCounter = 0; // Índice del color
+  
+  setInterval(updateWord, 1500);
+  
+  function updateWord() {
+    if (wordCounter >= words.length) wordCounter = 0;
+    
+    // Quitar la clase active de todas las palabras
+    for (var i = 0; i < words.length; i++) {
+      words[i].classList.remove('active');
+      words[i].style.color = ''; // Restablecer el color
+    }
+    
+    // Añadir la clase active a la palabra actual
+    words[wordCounter].classList.add('active');
+    
+    // Cambiar el color de la palabra activa usando el índice
+    words[wordCounter].style.color = colors[colorCounter];
+    
+    // Ajustar el texto en el <p> según la palabra activa
+    var paragraph = document.querySelector('.animate-words_');
+    var prefix = document.querySelector('.prefix');
+    var suffix = document.querySelector('.suffix');
+    var currentWord = words[wordCounter];
+    
+    if (currentWord.classList.contains('plural')) {
+      prefix.textContent = '¡ Fan de tus ';
+    } else {
+      prefix.textContent = '¡ Fan de tu ';
+    }
+    
+    // Incrementar el contador de palabras y colores
+    wordCounter++;
+    colorCounter++;
+    
+    // Reiniciar el contador de colores si es necesario
+    if (colorCounter >= colors.length) colorCounter = 0;
+  }
+}
+
+displayWord();
+
+/************************************************************************* */
+
 document.addEventListener("DOMContentLoaded", function () {
     var bodyElement = document.getElementById("body");
     var saludoElement = document.getElementById("saludo-dinamico");
@@ -97,51 +148,3 @@ setInterval(updateTimer, 1000);
 
 
 
-/****** Animate-words_ ******* */
-function displayWord() {
-  var words = document.getElementsByClassName("toggle");
-  var wordCounter = 0;
-  
-  // Array de colores
-  var colors = ['#f047d0', '#00ca92', '#f67a49', '#FF33A5', '#674ea7'];
-  var colorCounter = 0; // Índice del color
-  
-  setInterval(updateWord, 1500);
-  
-  function updateWord() {
-    if (wordCounter >= words.length) wordCounter = 0;
-    
-    // Quitar la clase active de todas las palabras
-    for (var i = 0; i < words.length; i++) {
-      words[i].classList.remove('active');
-      words[i].style.color = ''; // Restablecer el color
-    }
-    
-    // Añadir la clase active a la palabra actual
-    words[wordCounter].classList.add('active');
-    
-    // Cambiar el color de la palabra activa usando el índice
-    words[wordCounter].style.color = colors[colorCounter];
-    
-    // Ajustar el texto en el <p> según la palabra activa
-    var paragraph = document.querySelector('.animate-words_');
-    var prefix = document.querySelector('.prefix');
-    var suffix = document.querySelector('.suffix');
-    var currentWord = words[wordCounter];
-    
-    if (currentWord.classList.contains('plural')) {
-      prefix.textContent = '¡ Fan de tus ';
-    } else {
-      prefix.textContent = '¡ Fan de tu ';
-    }
-    
-    // Incrementar el contador de palabras y colores
-    wordCounter++;
-    colorCounter++;
-    
-    // Reiniciar el contador de colores si es necesario
-    if (colorCounter >= colors.length) colorCounter = 0;
-  }
-}
-
-displayWord();
