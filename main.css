@@ -1187,7 +1187,8 @@ body {
   position: relative;
   width: 500px;
   max-width: 90%;
-  background: #fff;
+  background: #ffffffa6;
+  backdrop-filter: blur(4px);
   padding: 1em 2em;
 }
 
