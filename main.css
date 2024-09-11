@@ -21,6 +21,27 @@ body {
   top: 0;
 }
 
+.floating {
+    animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+      transform: translateY(0);
+      /* Posición inicial */
+  }
+
+  50% {
+      transform: translateY(-10px);
+      /* Eleva la imagen */
+  }
+
+  100% {
+      transform: translateY(0);
+      /* Regresa a la posición original */
+  }
+}
+
 .buenos-dias {
   background-image: linear-gradient(
     0deg,
@@ -1053,6 +1074,41 @@ body {
 .pinterest_ svg {
   width: 30px;
   height: 30px;
+}
+
+
+.particle-count {
+  display: block;
+  text-align: center;
+  margin: 25px 0;
+}
+
+.particles > .particle {
+  border-radius: 100%;
+  background: transparent;
+  position: absolute;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.particles > .particle.smaller {
+  width: 5px;
+  height: 5px;
+}
+.particles > .particle.small {
+  width: 10px;
+  height: 10px;
+}
+.particles > .particle.normal {
+  width: 15px;
+  height: 15px;
+}
+.particles > .particle.big {
+  width: 20px;
+  height: 20px;
+}
+.particles > .particle.bigger {
+  width: 25px;
+  height: 25px;
 }
 
 @media screen and (max-width: 576px) {
