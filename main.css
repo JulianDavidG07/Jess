@@ -1211,6 +1211,19 @@ body {
     text-decoration: none;
 }
 
+
+.btn-refresh_ {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: none;
+  border: none;
+
+  img {
+    max-width: 60px;;
+  }
+}
+
 @media screen and (max-width: 576px) {
   .ico:before {
     font-size: 12em !important;
