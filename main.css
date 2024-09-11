@@ -1243,7 +1243,7 @@ body {
 		
 		span {
 			display: block;
-			animation: animateWords 10s infinite ease;
+			animation: animateWords 6s infinite ease;
 		}
 	}
 }
