@@ -1050,10 +1050,7 @@ body {
 
 @media screen and (max-width: 576px) {
   .ico:before {
-    font-size: 12em;
-  }
-
-  .ico:before {
-    top: 35px;
+    font-size: 12em!important;
+    top: 35px!important;
   }
 }
