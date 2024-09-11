@@ -76,14 +76,14 @@ track.addEventListener("ended", function () {
 
 /********** countdown ************* */
 function updateTimer() {
-  // Establecer la fecha de nacimiento y la fecha actual
+  // Establecer la fecha de referencia y la fecha actual
   var past = new Date("2023-12-07T00:00:00");
   var now = new Date();
 
   // Calcular la diferencia en milisegundos
   var diff = now - past;
 
-  // Convertir la diferencia de milisegundos a años, meses, días, horas, minutos y segundos
+  // Convertir la diferencia a años, meses, días, horas, minutos y segundos
   var years = now.getFullYear() - past.getFullYear();
   var months = now.getMonth() - past.getMonth();
   var days = now.getDate() - past.getDate();
@@ -102,14 +102,19 @@ function updateTimer() {
   }
   if (months < 0) { years--; months += 12; }
 
-  // Actualizar el elemento con el tiempo transcurrido
+  // Función para determinar singular o plural
+  function pluralize(value, singular, plural) {
+    return value === 1 ? singular : plural;
+  }
+
+  // Actualizar el elemento con el tiempo transcurrido y las palabras correctas en singular/plural
   document.getElementById("timer").innerHTML =
-    '<div>' + years + '<span>Año(s)</span></div>' +
-    '<div>' + months + '<span>Mese(s)</span></div>' +
-    '<div>' + days + '<span>Dia(s)</span></div>' +
-    '<div>' + hours + '<span>Hora(s)</span></div>' +
-    '<div>' + minutes + '<span>Minuto(s)</span></div>' +
-    '<div>' + seconds + '<span>Segundo(s)</span></div>' +
+    '<div>' + years + '<span>' + pluralize(years, 'Año', 'Años') + '</span></div>' +
+    '<div>' + months + '<span>' + pluralize(months, 'Mes', 'Meses') + '</span></div>' +
+    '<div>' + days + '<span>' + pluralize(days, 'Día', 'Días') + '</span></div>' +
+    '<div>' + hours + '<span>' + pluralize(hours, 'Hora', 'Horas') + '</span></div>' +
+    '<div>' + minutes + '<span>' + pluralize(minutes, 'Minuto', 'Minutos') + '</span></div>' +
+    '<div>' + seconds + '<span>' + pluralize(seconds, 'Segundo', 'Segundos') + '</span></div>' +
     '<div class="mini-text"><span>Bendecidos<br>¡A tu lado! <3</span></div>';
 }
 
