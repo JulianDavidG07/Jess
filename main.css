@@ -1029,11 +1029,18 @@ body {
   font-weight: 900;
 }
 
+#timer .mini-text {
+  background: #ffffff63;
+  backdrop-filter: blur(6px);
+  border-radius: 5px;
+}
+
 #timer .mini-text,
 #timer .mini-text * {
   font-size: 14px !important;
   margin-top: 2px !important;
   border-bottom: none !important;
+  color: #6e0225!important;
 }
 
 .pinterest_ {
@@ -1050,7 +1057,7 @@ body {
 
 @media screen and (max-width: 576px) {
   .ico:before {
-    font-size: 12em!important;
-    top: 35px!important;
+    font-size: 12em !important;
+    top: 35px !important;
   }
 }
