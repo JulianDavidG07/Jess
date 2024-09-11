@@ -1077,7 +1077,7 @@ body {
 
 /************ MODAL ***************/
 .btn-modal_ {
-  position: absolute;
+  position: fixed;
   top: 0;
   display: flex;
   justify-content: center;
