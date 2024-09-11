@@ -32,7 +32,7 @@ body {
 }
 
 .floating {
-  animation: float 4s ease-in-out infinite;
+  animation: float 2s ease-in-out infinite;
 }
 
 @keyframes float {
@@ -52,20 +52,9 @@ body {
   }
 }
 
-.buenos-dias {
-  background-image: linear-gradient(
-    0deg,
-    #2aabdb 10%,
-    #ecec91 90%
-  ); /* Fondo amarillo para Buenos días */
-}
-
+.buenos-dias, 
 .buenas-tardes {
-  background-image: linear-gradient(
-    0deg,
-    #2aabdb 2%,
-    #f0f044 35%
-  ); /* Fondo naranja para Buenas tardes */
+  background-image: linear-gradient(0deg, #29bb93 5%, #fdfca8 95%);
 }
 
 .buenas-noches {
