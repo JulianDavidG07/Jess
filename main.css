@@ -1021,14 +1021,12 @@ body {
 }
 
 #timer div span {
-  color: #eb768d;
-    text-shadow: 1px 1px 10px #f4f0f0;
-    -webkit-text-stroke: px #ffffff;
-    display: block;
-    font-size: 14px;
-    font-weight: 700;
-    -webkit-text-fill-color: white;
-    -webkit-text-stroke-width: 1px;
+  color: #f6627f;
+  text-shadow: 1px 1px 12px #fffafa;
+  -webkit-text-stroke: px #ffffff;
+  display: block;
+  font-size: 14px;
+  font-weight: 900;
 }
 
 #timer .mini-text,
