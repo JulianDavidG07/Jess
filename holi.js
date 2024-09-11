@@ -75,7 +75,6 @@ const messages = [
   "🌞 ¿Acaba de salir el sol o me has sonreído? 😍",
   "🍬 Ahora mismo se me está antojando algo dulce como tú 😘",
   "💭 Me dijeron: piensa en algo bonito que te haga feliz. Y te imaginé a ti sonriendo 🌟",
-  "⚗️ Ni en los laboratorios existe tanta química como la que hay entre nosotros 💕",
   "🌟 Somos una casualidad llena de intención 💫",
   "🛌 Perdona si estás cansada, es mi culpa. Has pasado todo el día paseando por mi mente 💭",
   "💞 Iba a decirte que me gustas, pero la verdad es que me encantas 💖",
