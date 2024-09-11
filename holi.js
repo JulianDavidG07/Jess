@@ -141,7 +141,6 @@ const messages = [
   "🦕 Bésame si me equivoco. Pero los dinosaurios todavía existen, ¿verdad? 😘",
   "🌹 Así que eres comunista, ¿eh? ¿Qué te parece si compartes tu boca con la mía? 💋",
   "🌳 Perdón, es que soy ecologista y quiero plantarte unos besos 🌹",
-  "📚 Voy a estudiar Derecho para dar con el caso que no me haces ⚖️",
   "💪 La lengua es el músculo más fuerte del cuerpo, ¿luchamos? 😏",
   "⏰ ¿Qué alarma me tengo que poner para despertarme contigo? 💖",
   "💸 Si te multan por exceso de belleza ya pagaré tu fianza 😘",
