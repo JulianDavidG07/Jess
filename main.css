@@ -1230,46 +1230,28 @@ body {
 }
 
 
-.animate-words_  {
-	font-size: 18px;
-	
-	> span {
-		position: relative;
-		display: inline-block;
-		color: #fa5056;
-		height: 27px;
-		vertical-align: bottom;
-		overflow: hidden;
-		
-		span {
-			display: block;
-			animation: animateWords 6s infinite ease;
-		}
-	}
+
+.animate-words_ span {
+  color: #00AA9E;
 }
 
-/* divided into as many parts as there are spans, each part decreasing the translateY by -100% */
-@keyframes animateWords {
-	0% {
-		transform: translateY(0%);
-	}
-	
-	25% {
-		transform: translateY(-100%);
-	}
-	
-	50% {
-		transform: translateY(-200%);
-	}
-	
-	75% {
-		transform: translateY(-300%);
-	}
-	
-	100% {
-		transform: translateY(-400%);
-	}
+.animate-words_ .toggle {
+  display: none;
 }
+
+.animate-words_ .active {
+  display: inline-block;
+}
+
+@keyframes animateWords {
+  0% {
+      transform: translateY(0%);
+  }
+  100% {
+      transform: translateY(calc(-100% * (var(--num-words) - 1)));
+  }
+}
+
 
 
 
