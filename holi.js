@@ -92,7 +92,7 @@ const messages = [
   "💫 ¡Aquí estoy! todo tuyo mi amor 🍊",
   "💞 No te amaré todos los días de tu vida, te amaré todos los días de la mía ❤️",
   "👀 Si sigo mirándote durante mucho rato necesitaré unos ojos nuevos 💖",
-  "🕰️ ¿Sabes qué hora es? Porque el verte he ha hecho perder la noción del tiempo 💫",
+  "🕰️ ¿Sabes qué hora es? Porque el verte me ha hecho perder la noción del tiempo 💫",
   "😊 Tienes algo en la cara. La sonrisa más bonita que he visto en mi vida 💖",
   "🌿 Hola, ¿eres ecologista? ¿Por qué no vienes y me plantas un beso en mi boca? 💋",
   "🚀 ¿Te gusta Star Wars? Porque a mí me gusta Star contigo 🌟",
