@@ -1230,10 +1230,7 @@ body {
 }
 
 
-
-.animate-words_ span {
-  color: #00AA9E;
-}
+/*** STYLES Animate Words***/
 
 .animate-words_ .toggle {
   display: none;

@@ -123,6 +123,18 @@ function displayWord() {
     // Cambiar el color de la palabra activa usando el índice
     words[wordCounter].style.color = colors[colorCounter];
     
+    // Ajustar el texto en el <p> según la palabra activa
+    var paragraph = document.querySelector('.animate-words_');
+    var prefix = document.querySelector('.prefix');
+    var suffix = document.querySelector('.suffix');
+    var currentWord = words[wordCounter];
+    
+    if (currentWord.classList.contains('plural')) {
+      prefix.textContent = '¡ Fan de tus ';
+    } else {
+      prefix.textContent = '¡ Fan de tu ';
+    }
+    
     // Incrementar el contador de palabras y colores
     wordCounter++;
     colorCounter++;
