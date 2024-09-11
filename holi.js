@@ -135,7 +135,7 @@ const messages = [
   "🐦 Disculpa, ¿eres una cagada de paloma? Porque siento que has caído del cielo y no te puedo quitar de mi cabeza, Muahhh 😅",
   "💋 Te voy a dar unos besotes, y si no te gustan pues me lo devuelves 😘",
   "🛋️ Are you a sofa? Because you are sofackingg precious 😍",
-  "💻 Debes de ser un virus, porque al verte se me encriptan las palabras 💖",
+  "💻 Debes de ser un protocolo informático, porque al verte se me encriptan las palabras 💖",
   "💧 Hola, ¿te gusta el agua? ¿Sí? Genial: ya te gusta un 70 % de mí 💦",
   "🥑 Are you an aguacate? Because te comía avocados 😋",
   "🐱 Rescato abuelas y ayudo a gatos a cruzar la calle... ¿o era al revés? Me tienes mal 🐾",
@@ -146,7 +146,7 @@ const messages = [
   "💪 La lengua es el músculo más fuerte del cuerpo, ¿luchamos? 😏",
   "⏰ ¿Qué alarma me tengo que poner para despertarme contigo? 💖",
   "💸 Si te multan por exceso de belleza ya pagaré tu fianza 😘",
-  "➕ Si hablamos de matemáticas, eres la suma de todos mis deseos ❤️",
+  "➕ Si hablamos de matemáticas, eres la suma de todos mis deseos ❤️"
 ];
 
 const modal = document.getElementById("te-amo");
