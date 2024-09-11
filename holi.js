@@ -149,22 +149,35 @@ const messages = [
   "➕ Si hablamos de matemáticas, eres la suma de todos mis deseos ❤️"
 ];
 
+
 const modal = document.getElementById("te-amo");
+const openModalButton = document.querySelector(".btn-modal_");
+const closeModalButton = document.querySelector(".modal__close");
 const messageElement = document.getElementById("modal-message");
 
-function updateMessage() {
-  if (window.location.hash === "#te-amo") {
-    const randomMessage = messages[Math.floor(Math.random() * messages.length)];
-    messageElement.textContent = randomMessage;
-  }
+
+// Función para mostrar el modal
+function openModal() {
+  modal.classList.add('show');
+
+  // Actualizar el mensaje aleatorio
+  const randomMessage = messages[Math.floor(Math.random() * messages.length)];
+  messageElement.textContent = randomMessage;
 }
 
-// Actualizar mensaje al cambiar el hash
-window.addEventListener("hashchange", updateMessage);
+// Función para cerrar el modal
+function closeModal() {
+  modal.classList.remove('show');
+}
 
-// También actualizar el mensaje cuando se carga la página, si el hash es #demo-modal
-window.addEventListener("load", function () {
-  if (window.location.hash === "#te-amo") {
-    updateMessage();
-  }
+// Evitar que el hash aparezca en la URL al hacer clic en los enlaces
+openModalButton.addEventListener("click", function(event) {
+  event.preventDefault(); // Evita que el hash se añada a la URL
+  openModal();
 });
+
+closeModalButton.addEventListener("click", function(event) {
+  event.preventDefault(); // Evita que el hash se añada a la URL
+  closeModal();
+});
+

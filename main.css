@@ -1177,9 +1177,13 @@ body {
   z-index: 9999;
 }
 
-.modal:target {
+.modal.show {
   visibility: visible;
   opacity: 1;
+}
+
+.modal__close {
+  cursor: pointer;
 }
 
 .modal__content {
@@ -1213,6 +1217,7 @@ body {
 
 
 .btn-refresh_ {
+  cursor: pointer;
   position: absolute;
   top: 10px;
   left: 10px;
