@@ -1229,6 +1229,51 @@ body {
   }
 }
 
+
+.animate-words_  {
+	font-size: 18px;
+	
+	> span {
+		position: relative;
+		display: inline-block;
+		color: #fa5056;
+		height: 27px;
+		vertical-align: bottom;
+		overflow: hidden;
+		
+		span {
+			display: block;
+			animation: animateWords 10s infinite ease;
+		}
+	}
+}
+
+/* divided into as many parts as there are spans, each part decreasing the translateY by -100% */
+@keyframes animateWords {
+	0% {
+		transform: translateY(0%);
+	}
+	
+	25% {
+		transform: translateY(-100%);
+	}
+	
+	50% {
+		transform: translateY(-200%);
+	}
+	
+	75% {
+		transform: translateY(-300%);
+	}
+	
+	100% {
+		transform: translateY(-400%);
+	}
+}
+
+
+
+
 @media screen and (max-width: 576px) {
   .ico:before {
     font-size: 12em !important;
