@@ -89,7 +89,7 @@ function updateTimer() {
     '<div>' + hours + '<span>' + pluralize(hours, 'Hora', 'Horas') + '</span></div>' +
     '<div>' + minutes + '<span>' + pluralize(minutes, 'Minuto', 'Minutos') + '</span></div>' +
     '<div>' + seconds + '<span>' + pluralize(seconds, 'Segundo', 'Segundos') + '</span></div>' +
-    '<div class="mini-text"><span>Bendecido<br>¡A tu lado! <span style="font-size:10px;">&#128522;</span></span></div>';
+    '<div class="mini-text"><span>Bendecido<br>¡A tu lado!<span style="font-size:10px;">&#128522;</span></span></div>';
 }
 
 // Llamar a la función updateTimer cada segundo

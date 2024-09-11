@@ -1057,7 +1057,7 @@ body {
 
 #timer .mini-text,
 #timer .mini-text * {
-  font-size: 14px !important;
+  font-size: 12px !important;
   margin-top: 2px !important;
   border-bottom: none !important;
   color: #6e0225 !important;
