@@ -1243,14 +1243,6 @@ body {
   display: inline-block;
 }
 
-@keyframes animateWords {
-  0% {
-      transform: translateY(0%);
-  }
-  100% {
-      transform: translateY(calc(-100% * (var(--num-words) - 1)));
-  }
-}
 
 
 
