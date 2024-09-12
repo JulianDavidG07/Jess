@@ -65,9 +65,7 @@ body {
   ); /* Fondo azul para Buenas noches */
 }
 
-.buenas-noches .card h3,
-.buenas-noches .card p,
-.buenas-noches .card p * {
+.buenas-noches .card h3 {
   color: white !important;
 }
 
