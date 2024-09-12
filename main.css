@@ -73,9 +73,7 @@ body {
   background-image: linear-gradient(0deg, #404749 24%, #383836 62%);
 }
 
-.buenas-madrugadas .card h3,
-.buenas-madrugadas .card p,
-.buenas-madrugadas .card p * {
+.buenas-madrugadas .card h3 {
   color: white !important;
 }
 
