@@ -99,7 +99,7 @@ track.addEventListener("ended", function () {
 });
 
 
-/********** CountDown ************* */
+/********** CountDown **************/
 function updateTimer() {
   // Establecer la fecha de referencia y la fecha actual
   var past = new Date("2023-12-07T00:00:00");
@@ -117,15 +117,44 @@ function updateTimer() {
   var seconds = now.getSeconds() - past.getSeconds();
 
   // Ajustar los valores si es necesario (para garantizar que sean valores positivos)
-  if (seconds < 0) { minutes--; seconds += 60; }
-  if (minutes < 0) { hours--; minutes += 60; }
-  if (hours < 0) { days--; hours += 24; }
+  if (seconds < 0) { 
+    minutes--; 
+    seconds += 60; 
+  }
+  if (minutes < 0) { 
+    hours--; 
+    minutes += 60; 
+  }
+  if (hours < 0) { 
+    days--; 
+    hours += 24; 
+  }
   if (days < 0) {
+    // Determinar el número de días en el mes anterior
     var daysInLastMonth = new Date(now.getFullYear(), now.getMonth(), 0).getDate();
     months--;
     days += daysInLastMonth;
   }
-  if (months < 0) { years--; months += 12; }
+  if (months < 0) { 
+    years--; 
+    months += 12; 
+  }
+
+  // Función para obtener el nombre del día
+  function getDayName(dayIndex) {
+    var dayNames = ["domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"];
+    return dayNames[dayIndex];
+  }
+
+  // Función para obtener el nombre del mes
+  function getMonthName(monthIndex) {
+    var monthNames = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
+    return monthNames[monthIndex];
+  }
+
+  // Formatear las fechas para que se vean como "jueves 7 de diciembre del 2023"
+  var pastFormatted = getDayName(past.getDay()) + ' ' + past.getDate() + ' de ' + getMonthName(past.getMonth()) + ' del ' + past.getFullYear();
+  var nowFormatted = getDayName(now.getDay()) + ' ' + now.getDate() + ' de ' + getMonthName(now.getMonth()) + ' del ' + now.getFullYear();
 
   // Función para determinar singular o plural
   function pluralize(value, singular, plural) {
@@ -134,17 +163,15 @@ function updateTimer() {
 
   // Actualizar el elemento con el tiempo transcurrido y las palabras correctas en singular/plural
   document.getElementById("timer").innerHTML =
-    '<div>' + years + '<span>' + pluralize(years, 'Año', 'Años') + '</span></div>' +
-    '<div>' + months + '<span>' + pluralize(months, 'Mes', 'Meses') + '</span></div>' +
-    '<div>' + days + '<span>' + pluralize(days, 'Día', 'Días') + '</span></div>' +
-    '<div>' + hours + '<span>' + pluralize(hours, 'Hora', 'Horas') + '</span></div>' +
-    '<div>' + minutes + '<span>' + pluralize(minutes, 'Minuto', 'Minutos') + '</span></div>' +
-    '<div>' + seconds + '<span>' + pluralize(seconds, 'Segundo', 'Segundos') + '</span></div>' +
+    '<div>' + years + '<span> ' + pluralize(years, 'Año', 'Años') + '</span></div>' +
+    '<div>' + months + '<span> ' + pluralize(months, 'Mes', 'Meses') + '</span></div>' +
+    '<div>' + days + '<span> ' + pluralize(days, 'Día', 'Días') + '</span></div>' +
+    '<div>' + hours + '<span> ' + pluralize(hours, 'Hora', 'Horas') + '</span></div>' +
+    '<div>' + minutes + '<span> ' + pluralize(minutes, 'Minuto', 'Minutos') + '</span></div>' +
+    '<div>' + seconds + '<span> ' + pluralize(seconds, 'Segundo', 'Segundos') + '</span></div>' +
+    '<div class="data-update"><p><span style="font-size:10px;">❤️</span>Desde el ' + pastFormatted + ' hasta hoy, ' + nowFormatted + '</p></div>' +
     '<div class="mini-text"><span>Bendecido<br>¡A tu lado!<span style="font-size:10px;">&#128522;</span></span></div>';
 }
 
 // Llamar a la función updateTimer cada segundo
 setInterval(updateTimer, 1000);
-
-
-

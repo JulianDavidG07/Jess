@@ -1238,7 +1238,17 @@ body {
 }
 
 
+/******** Data UPdate counter **********/
+.data-update {
+  max-width: 72px;
+  background: white;
+}
 
+.data-update * {
+  font-size: 8px !important;
+  margin: 4px 0;
+  line-height: 1.2;
+}
 
 
 
