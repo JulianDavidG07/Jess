@@ -99,7 +99,7 @@ track.addEventListener("ended", function () {
 });
 
 
-/********** countdown ************* */
+/********** CountDown ************* */
 function updateTimer() {
   // Establecer la fecha de referencia y la fecha actual
   var past = new Date("2023-12-07T00:00:00");
