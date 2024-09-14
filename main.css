@@ -1266,7 +1266,7 @@ body {
 
 .animate-words_ .active {
   display: inline-block;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 1px 1px 2px rgb(211, 210, 210);
   background: #ffffff1c;
 }
 
