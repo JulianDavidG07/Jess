@@ -16,6 +16,29 @@ body {
   justify-content: center;
 }
 
+.saludito-de-buenas {
+  margin: 0;
+  font-size: 24px;
+  position: relative;
+  font-weight: 400;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: url(./assets/grass.webp);
+  background-size: 30%;
+  background-repeat: repeat;
+  text-shadow: 2px 2px 5px rgb(74 123 8 / 52%);
+}
+
+/* Asegúrate de que solo el emoji no se vea afectado */
+.saludito-de-buenas .lt {
+  background: none !important;
+  -webkit-background-clip: initial !important;
+  -webkit-text-fill-color: initial !important;
+  text-shadow: none !important;
+  font-size: inherit;
+  vertical-align: middle;
+}
+
 .snowflake {
   position: absolute;
   width: 10px;
@@ -52,7 +75,7 @@ body {
   }
 }
 
-.buenos-dias, 
+.buenos-dias,
 .buenas-tardes {
   background-image: linear-gradient(0deg, #29bb93 5%, #fdfca8 95%);
 }
@@ -1032,14 +1055,13 @@ body {
 #timer div {
   display: inline-block;
   border-bottom: 1px solid #030303a8;
-  text-shadow: 0px 0px 8px rgb(252 248 248);
+  text-shadow: 1px 1px 2px black;
   text-align: center;
 }
 
 #timer div span {
   color: #f6627f;
-  text-shadow: 1px 1px 12px #fffafa;
-  -webkit-text-stroke: px #ffffff;
+  text-shadow: 1px 1px 2px black;
   display: block;
   font-size: 14px;
   font-weight: 900;
@@ -1205,13 +1227,12 @@ body {
 
 .modal__close {
   position: absolute;
-    top: 6px;
-    font-size: 30px;
-    right: 18px;
-    color: #585858;
-    text-decoration: none;
+  top: 6px;
+  font-size: 30px;
+  right: 18px;
+  color: #585858;
+  text-decoration: none;
 }
-
 
 .btn-refresh_ {
   cursor: pointer;
@@ -1222,21 +1243,32 @@ body {
   border: none;
 
   img {
-    max-width: 60px;;
+    max-width: 60px;
   }
 }
 
-
 /*** STYLES Animate Words***/
+
+.animate-words_ {
+  background-color: #ffffff36;
+  backdrop-filter: blur(4px);
+}
 
 .animate-words_ .toggle {
   display: none;
 }
 
-.animate-words_ .active {
-  display: inline-block;
+.animate-words_ .prefix,
+.animate-words_ .suffix {
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+  background: #ffffff1c;
 }
 
+.animate-words_ .active {
+  display: inline-block;
+  text-shadow: 1px 1px 2px black;
+  background: #ffffff1c;
+}
 
 /******** Data UPdate counter **********/
 .data-update {
@@ -1249,8 +1281,6 @@ body {
   margin: 4px 0;
   line-height: 1.2;
 }
-
-
 
 @media screen and (max-width: 576px) {
   .ico:before {

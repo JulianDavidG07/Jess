@@ -47,32 +47,34 @@ function displayWord() {
 
 displayWord();
 
+
+
 /************************************************************************* */
-
 document.addEventListener("DOMContentLoaded", function () {
-    var bodyElement = document.getElementById("body");
-    var saludoElement = document.getElementById("saludo-dinamico");
+  var bodyElement = document.getElementById("body");
+  var saludoElement = document.getElementById("saludo-dinamico");
 
-    function obtenerSaludo() {
-      var horaActual = new Date().getHours();
+  function obtenerSaludo() {
+    var horaActual = new Date().getHours();
 
-      if (horaActual >= 5 && horaActual < 12) {
-        bodyElement.classList.add("buenos-dias");
-        return "Buenos días 🌤️";
-      } else if (horaActual >= 12 && horaActual < 18) {
-        bodyElement.classList.add("buenas-tardes");
-        return "Buenas tardes 🌞";
-      } else if (horaActual >= 18 && horaActual < 24) {
-        bodyElement.classList.add("buenas-noches");
-        return "Buenas noches 🌜";
-      } else {
-        bodyElement.classList.add("buenas-madrugadas");
-        return "Buenas por la madrugada 🌑";
-      }
+    if (horaActual >= 5 && horaActual < 12) {
+      bodyElement.classList.add("buenos-dias");
+      return "Buenos días <span class='lt'>🌤️</span>";
+    } else if (horaActual >= 12 && horaActual < 18) {
+      bodyElement.classList.add("buenas-tardes");
+      return "Buenas tardes <span class='lt'>🌞</span>";
+    } else if (horaActual >= 18 && horaActual < 24) {
+      bodyElement.classList.add("buenas-noches");
+      return "Buenas noches <span class='lt'>🌜</span>";
+    } else {
+      bodyElement.classList.add("buenas-madrugadas");
+      return "Buenas por la madrugada <span class='lt'>🌑</span>";
     }
+  }
 
-    saludoElement.textContent = obtenerSaludo();
-  });
+  saludoElement.innerHTML = obtenerSaludo();
+});
+
 
 
 
