@@ -1055,13 +1055,13 @@ body {
 #timer div {
   display: inline-block;
   border-bottom: 1px solid #030303a8;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 1px 1px 2px #a59898;
   text-align: center;
 }
 
 #timer div span {
   color: #f6627f;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 1px 1px 2px #252525;
   display: block;
   font-size: 14px;
   font-weight: 900;
@@ -1078,7 +1078,7 @@ body {
   font-size: 12px !important;
   margin-top: 2px !important;
   border-bottom: none !important;
-  color: #6e0225 !important;
+  color: #e95146 !important;
 }
 
 .pinterest_ {
