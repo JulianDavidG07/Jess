@@ -47,7 +47,6 @@ const messages = [
   "🌌 Andábamos sin buscarnos, pero sabiendo que andábamos para encontrarnos 💫",
   "⏰ Entrégame el tiempo que te sobre, y lo gastaré en hacerte la persona más feliz del planeta 🌟",
   "🌟 Hay tinieblas en la vida y hay luces, y tú eres una de las luces, la luz de todas las luces ✨",
-  "🍭 Quería llevarte al cine, pero no permiten entrar con dulces 🍬",
   "❤️ No hay que morir por el otro, sino vivir para disfrutar juntos 🌟",
   "💋 Te mereces que te besen, cada día, cada hora, a cada minuto 💖",
   "🔔 Eres mi notificación favorita 📲",
@@ -60,10 +59,9 @@ const messages = [
   "💖 No creía en el amor a primera vista, hasta que te vi por primera vez 😘",
   "👂 Ven y dime al oído que te has vestido hoy pensando en desvestirte frente a mí 💕",
   "💭 ¿Sería muy egoísta pedirte solo para mí? 🌟",
-  "💡 Si me preguntan por ti, les diré que iluminaste mi vida y toda la ciudad 🌟",
+  "💡 Si me preguntan por ti, les diré que iluminaste mi vida y toda el universo 🌟",
   "💋 Quiero llenar mi boca con tu nombre 💖",
   "💌 Eres lo que no sabía que necesitaba. Ahora tengo claro que te necesito aquí siempre 🌟",
-  "🛠️ Me las puedo arreglar solo, pero arreglármelas contigo me parece un mejor plan 🌟",
   "⏳ Haría los segundos eternos para estar contigo un rato más 💖",
   "🌪️ Ahora resulta que en medio de este caos, tú y yo nos hacemos reír 😄",
   "💋 Tengo antojo de un beso tuyo, ¿vienes o voy? 🌟",
@@ -72,11 +70,10 @@ const messages = [
   "🏡 Quizás es porque me sentí como en casa contigo mucho antes de que me dejaras entrar 🌟",
   "🌞 ¿Acaba de salir el sol o me has sonreído? 😍",
   "🍬 Ahora mismo se me está antojando algo dulce como tú 😘",
-  "💭 Me dijeron: piensa en algo bonito que te haga feliz. Y te imaginé a ti sonriendo 🌟",
-  "🌟 Somos una casualidad llena de intención 💫",
+  "💭 Me derrite verte sonreír 🌟",
+  "🌟 Nuestro amor solo esta lleno de lindas y verdaderas intenciones 💫",
   "💞 Iba a decirte que me gustas, pero la verdad es que me encantas 💖",
   "👀 Cuanto más te veo, más te quiero ver 💫",
-  "❤️ Y yo te quiero así: mía, pero tuyo al mismo tiempo 💕",
   "🔮 Nuestro encuentro no fue una coincidencia. Nada ocurre por accidente 🌟",
   "🎁 Toma, mi amor, te regalo mi eternidad 💖",
   "👀 Tus ojos son el arma con la que me robaste el corazón 💖",
@@ -86,14 +83,13 @@ const messages = [
   "❤️ No soy donante de órganos, pero te daría con gusto mi corazón 💞",
   "😇 Acabo de ver un ángel, no estoy seguro de estar en la tierra 💖",
   "📜 Contigo no quiero finales, contigo quiero una historia sin final 🌟",
-  "💫 ¡Aquí estoy! todo tuyo mi amor 🍊",
+  "💫 ¡Aquí estoy! todo tuyo mi bebe 🍊",
   "💞 No te amaré todos los días de tu vida, te amaré todos los días de la mía ❤️",
   "👀 Si sigo mirándote durante mucho rato necesitaré unos ojos nuevos 💖",
   "🕰️ ¿Sabes qué hora es? Porque el verte me ha hecho perder la noción del tiempo 💫",
   "😊 Tienes algo en la cara. La sonrisa más bonita que he visto en mi vida 💖",
-  "🌿 Hola, ¿eres ecologista? ¿Por qué no vienes y me plantas un beso en mi boca? 💋",
+  "🌿 Hola, ¿eres ecologista? ¿Por qué no vienes y me plantas un besito? 💋",
   "🚀 ¿Te gusta Star Wars? Porque a mí me gusta Star contigo 🌟",
-  "🪥 Entonces... ¿de qué color es tu cepillo de dientes? 🧼",
   "🏠 ¿Vives a menudo por aquí? Aquí en mi corazón 🌆",
   "🎁 Bueno, aquí estoy, ¿cuáles eran tus otros dos deseos? 🎈",
   "💸 Oye, ¿me vas a dar el dinero ya? Que desde que te conozco llevas viviendo en mi corazón sin pagar alquiler 💌",
@@ -103,7 +99,7 @@ const messages = [
   "💍 ¿Crees que soy exagerado?, pero... ¿cómo ves eso de casarnos ahora? 💕",
   "⏳ Perdona mi impuntualidad: me hubiera gustado llegar antes a tu vida ⏰",
   "🎁 ¿Qué te parece si nos damos un tiempo? Por ejemplo, tú me das tu presente y yo te doy mi futuro 🕰️",
-  "📸 ¿Eres una cámara? Porque cada vez que te miro, sonrío 😄",
+  "📸 ¿Eres una gatita? Porque cada vez que te miro, sonrío 😄",
   "❤️ Verte ha afectado mi corazón más que mi consumo compulsivo de triglicéridos y transaminasas 🍔",
   "🐶 No soy un perro, pero guau contigo 😍",
   "📚 Puedo decirte con ejemplos prácticos la diferencia entre ay, hay y ahí ✍️",
@@ -125,7 +121,6 @@ const messages = [
   "🌈 Mi color favorito es verte 💖",
   "🛌 Perdona si estás cansada. Pero es tu culpa. Has pasado todo el día paseando por mi mente 😴",
   "🌟 Mira que me gustas todos los días, y mañana mas 😍",
-  "💸 Si me pagaran por pensar en ti, sería millonario 🤑",
   "🐦 Disculpa, ¿eres una cagada de paloma? Porque siento que has caído del cielo y no te puedo quitar de mi cabeza, Muahhh 😅",
   "💋 Te voy a dar unos besotes, y si no te gustan pues me lo devuelves 😘",
   "🛋️ Are you a sofa? Because you are sofackingg precious 😍",
@@ -139,19 +134,43 @@ const messages = [
   "💪 La lengua es el músculo más fuerte del cuerpo, ¿luchamos? 😏",
   "⏰ ¿Qué alarma me tengo que poner para despertarme contigo? 💖",
   "💸 Si te multan por exceso de belleza ya pagaré tu fianza 😘",
-  "➕ Si hablamos de matemáticas, eres la suma de todos mis deseos ❤️"
+  "➕ Si hablamos de matemáticas, eres la suma de todos mis deseos ❤️",
+  "❤️ Eres la bendición que Dios puso en mi vida, y doy gracias cada día por ti 🙏",
+  "💫 Con Dios como nuestro guía, no hay obstáculo que no podamos superar juntos ✝️",
+  "🌷 Cuando te miro, veo el amor de Cristo reflejado en tu sonrisa 🌞",
+  "🙌 Con Dios en el centro, nuestro amor es inquebrantable 🤍",
+  "🌟 Tu amor me acerca más a Dios cada día, eres mi bendición más grande ✨",
+  "🙏 La oración nos une y nos fortalece, gracias por caminar conmigo en la fe ✝️",
+  "💖 Nuestro amor es un regalo del Cielo, un reflejo del amor de Dios 💌",
+  "👫 Caminamos de la mano en este mundo, pero es Dios quien guía nuestros pasos 🙏",
+  "🌿 Tu fe ilumina mi camino y me hace confiar en los planes que Dios tiene para nosotros 🕊️",
+  "💒 Contigo he aprendido que el amor verdadero es el que se construye en la fe y la gracia de Dios 🌿",
+  "💞 Dios nos hizo el uno para el otro, y eso lo siento cada vez que estoy a tu lado 💫",
+  "🌹 Tú y yo somos parte del plan perfecto de Dios, y en Él confío nuestro futuro juntos ✝️",
+  "🕊️ La paz que siento en tu presencia es un reflejo del amor que Dios ha derramado sobre nosotros 💖",
+  "✨ En tu mirada veo la obra maravillosa de Dios, su creación más bella 🌟",
+  "🌈 Con Dios como nuestro faro, nuestro amor siempre encontrará el mejor rumbo 💖",
+  "🙏 Doy gracias a Dios todos los días por cruzar nuestros caminos y bendecir nuestro amor ✝️",
+  "🌹 Un día me pregunté por qué el mundo parecía tan grande, hasta que te conocí. Contigo entendí que el tamaño del mundo no se mide por la distancia, sino por la profundidad del amor que sentimos. Desde entonces, el mundo es más pequeño, pero mi corazón es infinito porque tú estás en él 💖",
+  "✨ ‘¿Por qué las estrellas brillan tanto?’, me pregunté. Y fue entonces cuando recordé: porque alguien como tú camina bajo ellas. Eres la razón por la que el universo se esmera en ser tan hermoso. Sin tu luz, ni las estrellas se atreverían a brillar tanto 🌌",
+  "🌻 Una vez conocí a una flor que pensaba que no era la más bonita del jardín. ‘Mira a tu alrededor’, le dije, ‘no importa cuántas flores haya, ninguna tiene la magia de crecer en mi corazón como tú’. Así me pasa contigo, eres mi flor especial 🌸",
+  "🐦 Un pajarito me dijo una vez: ‘La libertad es volar lejos y nunca mirar atrás’. Pero cuando te conocí, descubrí que la verdadera libertad está en quedarme a tu lado, porque en ti encuentro mi hogar, sin importar dónde estemos 💕",
+  "🌈 Me contaron que los arcoíris nacen después de la tormenta. Pero cuando llegaste a mi vida, me di cuenta de que no necesito una tormenta para ver colores hermosos, porque cada día contigo es un arcoíris en sí mismo 🌟",
+  "🦋 Un día una mariposa se posó en mi hombro y me contó un secreto: ‘No es el vuelo lo que me hace especial, sino las miradas que me siguen’. Y así, como esa mariposa, tu belleza y tu luz me han hecho volar de maneras que nunca imaginé 🦋",
+  "🌙 ‘¿Cómo saber cuándo has encontrado a alguien especial?’, le pregunté a la luna. Y ella me respondió: ‘Es cuando no necesitas más luz en la noche, porque su presencia ya ilumina todo lo que eres’. Desde entonces, sé que eres mi luz en cada oscuridad ✨",
+  "🌟 Un zorro me dijo una vez: ‘Lo esencial es invisible a los ojos, pero siempre se siente en el corazón’. Así es contigo, aunque no siempre puedo ver todo lo que eres, mi corazón lo sabe: eres lo más esencial en mi vida 💫",
+  "🕊️ ‘¿Por qué el cielo es tan inmenso?’, pregunté. ‘Porque guarda todos los sueños de aquellos que miran hacia arriba’, me respondió el viento. Y al mirar al cielo, comprendí que mis sueños ahora vuelan contigo, en cada latido de tu corazón 🌥️",
+  "🐱 Un gato me contó una vez que el amor verdadero no pide, solo da. Y es por eso que cada día quiero darte lo mejor de mí, porque tu amor es un regalo que no necesito pedir, solo cuidar y atesorar 💖",
 ];
-
 
 const modal = document.getElementById("te-amo");
 const openModalButton = document.querySelector(".btn-modal_");
 const closeModalButton = document.querySelector(".modal__close");
 const messageElement = document.getElementById("modal-message");
 
-
 // Función para mostrar el modal
 function openModal() {
-  modal.classList.add('show');
+  modal.classList.add("show");
 
   // Actualizar el mensaje aleatorio
   const randomMessage = messages[Math.floor(Math.random() * messages.length)];
@@ -160,17 +179,16 @@ function openModal() {
 
 // Función para cerrar el modal
 function closeModal() {
-  modal.classList.remove('show');
+  modal.classList.remove("show");
 }
 
 // Evitar que el hash aparezca en la URL al hacer clic en los enlaces
-openModalButton.addEventListener("click", function(event) {
+openModalButton.addEventListener("click", function (event) {
   event.preventDefault(); // Evita que el hash se añada a la URL
   openModal();
 });
 
-closeModalButton.addEventListener("click", function(event) {
+closeModalButton.addEventListener("click", function (event) {
   event.preventDefault(); // Evita que el hash se añada a la URL
   closeModal();
 });
-
